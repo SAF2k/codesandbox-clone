@@ -1,3 +1,4 @@
+import MobileScreen from "@/components/MobileScreen";
 import "@Styles/globals.css";
 import type { Metadata } from "next";
 import { Cousine, Inter } from "next/font/google";
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body
         className={`bg-background ${inter.className} ${cousine.variable} font-body text-text`}
       >
+        <MobileScreen />
         {children}
       </body>
     </html>
