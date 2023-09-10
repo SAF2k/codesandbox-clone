@@ -1,6 +1,6 @@
 "use client";
 
-import { GithubIcon } from "@Icons/github";
+import { GithubIcon } from "@/icons";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef } from "react";

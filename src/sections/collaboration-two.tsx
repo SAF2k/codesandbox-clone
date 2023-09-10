@@ -1,7 +1,8 @@
 "use client"
 
-import { BranchIcon } from "@/icons/branch";
-import { stylesWithCssVar } from "@/utils/motion";
+
+import { BranchIcon } from "@/icons";
+import { stylesWithCssVar } from "@Utils/motion";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";

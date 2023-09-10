@@ -24,7 +24,6 @@
       "@Styles/*": ["./src/style/*"],
       "@Components/*": ["./src/components/*"],
       "@Sections/*": ["./src/sections/*"],
-      "@Icons/*": ["./src/icons/*"],
       "@Utils/*": ["./src/utils/*"]
     }
   },
