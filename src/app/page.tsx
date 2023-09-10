@@ -1,3 +1,4 @@
+import CollaborationTwo from "@Sections/collaborationTwo";
 import Collaboration from "@Sections/collaboration";
 import Hero from "@Sections/hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Hero />
       <div className="relative z-10 w-full">
         <Collaboration />
+        <CollaborationTwo />
       </div>
     </main>
   );
