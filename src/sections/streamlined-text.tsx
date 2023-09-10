@@ -1,8 +1,9 @@
 "use client";
 
-import { stylesWithCssVar } from "@/utils/motion";
 import { useScroll, motion, useTransform } from "framer-motion";
 import { useRef } from "react";
+
+import { stylesWithCssVar } from "@Utils/motion";
 
 export default function StreamlinedText() {
   const targetRef = useRef<HTMLDivElement | null>(null);
@@ -29,7 +30,7 @@ export default function StreamlinedText() {
 
   const finalTextScale = useTransform(scrollYProgress, [0.8, 0.9], [1, 0.7]);
 
-  const opacitySection = useTransform(scrollYProgress, [0.1, 0.5], [0, 1]);
+  const opacitySection = useTransform(scrollYProgress, [0.1, 0.3], [0, 1]);
 
   return (
     <motion.section
@@ -45,14 +46,14 @@ export default function StreamlinedText() {
         <motion.p
           aria-hidden
           style={{ x: textX, y: "-50%" }}
-          className="whitepspace-nowrap min-w-screen absolute top-1/2 left-[calc(-50vw+25rem)] text-[23rem] text-heading"
+          className="whitespace-nowrap min-w-screen absolute top-1/2 left-[calc(-50vw+25rem)] text-[23rem] text-heading"
         >
           Streamlined Experience.
         </motion.p>
         <motion.p
           aria-hidden
           style={{ x: textX, y: "-50%" }}
-          className="whitepspace-nowrap min-w-screen absolute top-1/2 left-[calc(-50vw+25rem)] z-[11] text-[23rem] text-transparent [-webkit-text-stroke:1px_var(--color-heading)]"
+          className="whitespace-nowrap min-w-screen absolute top-1/2 left-[calc(-50vw+25rem)] z-[11] text-[23rem] text-transparent [-webkit-text-stroke:1px_var(--color-heading)]"
         >
           Streamlined Experience.
         </motion.p>
