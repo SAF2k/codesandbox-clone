@@ -20,7 +20,12 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@Styles/*": ["./src/style/*"],
+      "@Components/*": ["./src/components/*"],
+      "@Sections/*": ["./src/sections/*"],
+      "@Icons/*": ["./src/icons/*"],
+      "@Utils/*": ["./src/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
