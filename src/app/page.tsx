@@ -5,6 +5,7 @@ import Hero from "@Sections/hero";
 import MoreFeatures from "@Sections/more-features";
 import StreamlinedText from "@Sections/streamlined-text";
 import NoLockIn from "@/sections/no-lockin";
+import Footer from "@/sections/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <MoreFeatures />
         <NoLockIn />
+        <Footer />
       </div>
     </main>
   );
