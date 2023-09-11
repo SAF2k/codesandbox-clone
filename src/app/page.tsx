@@ -1,8 +1,9 @@
 import CollaborationTwo from "@Sections/collaboration-two";
 import Collaboration from "@Sections/collaboration";
+import Features from "@Sections/features";
 import Hero from "@Sections/hero";
-import StreamlinedText from "@Sections/streamlined-text";
 import MoreFeatures from "@Sections/more-features";
+import StreamlinedText from "@Sections/streamlined-text";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Collaboration />
         <CollaborationTwo />
         <StreamlinedText />
+        <Features />
         <MoreFeatures />
       </div>
     </main>

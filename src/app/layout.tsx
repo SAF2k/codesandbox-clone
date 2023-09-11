@@ -1,7 +1,8 @@
-import MobileScreen from "@/components/MobileScreen";
-import "@Styles/globals.css";
-import type { Metadata } from "next";
 import { Cousine, Inter } from "next/font/google";
+import type { Metadata } from "next";
+
+import MobileScreen from "@Components/MobileScreen";
+import "@Styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const cousine = Cousine({
