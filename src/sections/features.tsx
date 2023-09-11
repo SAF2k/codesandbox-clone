@@ -33,7 +33,7 @@ export default function Features() {
 
   const text2Opacity = useTransform(
     scrollYProgress,
-    [0.5, 0.6, 0.7],
+    [0.45, 0.6, 0.7],
     [0, 1, 0]
   );
 
@@ -51,7 +51,7 @@ export default function Features() {
 
   const text3Opacity = useTransform(
     scrollYProgress,
-    [0.7, 0.8, 0.9],
+    [0.7, 0.8, 0.93],
     [0, 1, 0]
   );
   const devtoolsSvg = useTransform(

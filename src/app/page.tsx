@@ -4,6 +4,7 @@ import Features from "@Sections/features";
 import Hero from "@Sections/hero";
 import MoreFeatures from "@Sections/more-features";
 import StreamlinedText from "@Sections/streamlined-text";
+import NoLockIn from "@/sections/no-lockin";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <StreamlinedText />
         <Features />
         <MoreFeatures />
+        <NoLockIn />
       </div>
     </main>
   );
