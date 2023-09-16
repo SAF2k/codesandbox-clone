@@ -1,9 +1,10 @@
 "use client";
 
-import { GithubIcon } from "@/icons";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
+
+import { GithubIcon } from "@/icons";
 
 export default function Hero() {
   const targetRef = useRef<HTMLDivElement | null>(null);

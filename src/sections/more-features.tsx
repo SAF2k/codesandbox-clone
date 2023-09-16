@@ -1,8 +1,9 @@
 "use client";
 
-import { IFeature, content } from "@Utils/features-data";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
+
+import { IFeature, content } from "@Utils/features-data";
 
 export default function MoreFeatures() {
   const targetRef = useRef<HTMLDivElement | null>(null);

@@ -1,9 +1,10 @@
 "use client";
 
-import { stylesWithCssVar } from "@/utils/motion";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+
+import { stylesWithCssVar } from "@/utils/motion";
 
 export default function Features() {
   const targetRef = useRef<HTMLDivElement | null>(null);
